@@ -14,12 +14,14 @@ Each LED is driven through a 220 Ω current-limiting resistor and connected thro
 
 ## Features
 
-- Custom PCB designed in KiCad
+- Custom PCB designed in KiCad 10
 - Compact PCB layout
 - 4-pin connector interface
+- 220 Ω current-limiting resistors
 - ERC verified
 - DRC verified
 - 3D visualization completed
+- Suitable for embedded systems and microcontroller projects
 
 ## PCB Layout
 
@@ -31,11 +33,21 @@ Each LED is driven through a 220 Ω current-limiting resistor and connected thro
 
 ## 3D View (With Components)
 
-![3D View Components](KiCad/pcb-3d-view%20components.png)
+![3D View Components](KiCad/pcb-3d-view-components.png)
 
 ## Schematic
 
 ![Schematic](KiCad/schematic.png)
+
+## Hardware Specifications
+
+| Component | Quantity |
+|------------|----------|
+| Red LED | 1 |
+| Yellow LED | 1 |
+| Green LED | 1 |
+| 220 Ω Resistor | 3 |
+| 1x4 Header Connector | 1 |
 
 ## Project Files
 
@@ -48,19 +60,28 @@ Each LED is driven through a 220 Ω current-limiting resistor and connected thro
 - KiCad 10
 - GitHub
 
+## Applications
+
+- Traffic Light Simulation
+- Embedded Systems Projects
+- Microcontroller Learning
+- Electronics Education
+- Status Indicator Modules
+
 ## Author
 
 **Tejwin Linto**
 
 Electrical and Electronics Engineering Student
 
-### Interests
+### Areas of Interest
 
 - Embedded Systems
 - PCB Design
 - IoT Development
 - Hardware Design
 - Microcontrollers
+- Electric Vehicles
 
 ## Repository Structure
 
@@ -76,10 +97,10 @@ Traffic-Light-LED-Module-PCB
     ├── traffic light module.kicad_sch.kicad_sch
     ├── pcb-layout.png
     ├── pcb-3d-view.png
-    ├── pcb-3d-view components.png
+    ├── pcb-3d-view-components.png
     └── schematic.png
 ```
 
 ## License
 
-This project is released under the MIT License.
+This project is licensed under the MIT License.
