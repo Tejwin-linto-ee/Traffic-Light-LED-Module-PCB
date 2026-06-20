@@ -33,7 +33,7 @@ Each LED is driven through a 220 Ω current-limiting resistor and connected thro
 
 ## 3D View (With Components)
 
-![3D View Components](KiCad/pcb-3d-view-components.png)
+![3D View Components](KiCad/pcb-3d-view%20components.png)
 
 ## Schematic
 
@@ -97,7 +97,7 @@ Traffic-Light-LED-Module-PCB
     ├── traffic light module.kicad_sch.kicad_sch
     ├── pcb-layout.png
     ├── pcb-3d-view.png
-    ├── pcb-3d-view-components.png
+    ├── pcb-3d-view components.png
     └── schematic.png
 ```
 
